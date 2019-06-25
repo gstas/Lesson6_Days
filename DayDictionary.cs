@@ -9,7 +9,7 @@ namespace Lesson6_Days
             Mon = 1,
             Tue,
             Wed,
-            The,
+            Thu,
             Fri,
             Sut,
             Sun

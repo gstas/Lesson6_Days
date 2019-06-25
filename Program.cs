@@ -18,6 +18,14 @@ namespace Lesson6_Days
         {
             DayOfYear dow = new DayOfYear (2019, DayDictionary.Month.Jun, 14, DayDictionary.DayOfTheWeek.Fri);
             Console.WriteLine(dow);
+            
+            // Данный "велосипед" решается с помощью
+            // DateTime d = DateTime.Now;
+            // Console.WriteLine(d.AddDays(30));
+
+            Console.WriteLine(dow + 30);
+
+            
         }
     }
 }
